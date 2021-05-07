@@ -20,8 +20,11 @@
 </template>
 
 <script>
+
+import LoginButton from "@/components/LoginButton";
 export default {
-  name: "AppBar"
+  name: "AppBar",
+  components: {LoginButton},
 }
 </script>
 
